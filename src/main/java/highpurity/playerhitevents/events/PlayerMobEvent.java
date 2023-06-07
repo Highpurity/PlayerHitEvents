@@ -17,7 +17,7 @@ public class PlayerMobEvent implements Listener {
                 var playername = e.getDamager().getName();
                 var player = e.getDamager();
 
-                Bukkit.broadcastMessage(ChatColor.GREEN + playername + ChatColor.WHITE + ChatColor.RED +"❤");
+                //Bukkit.broadcastMessage(ChatColor.GREEN + playername + ChatColor.WHITE + ChatColor.RED +"❤");
             }
         }
     }
