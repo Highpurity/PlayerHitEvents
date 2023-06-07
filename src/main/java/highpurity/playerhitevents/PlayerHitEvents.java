@@ -10,9 +10,6 @@ public final class PlayerHitEvents extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-
-        getCommand("reload").setExecutor(new PlayerHitEvents());
-
         getServer().getPluginManager().registerEvents(new PlayerPlayerEvent(), this);
 
     }

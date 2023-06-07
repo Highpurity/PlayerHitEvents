@@ -6,6 +6,3 @@ prefix: [HitReg]
 authors: [Highpurity]
 description: Customizable plugin that sends hit regisration events!
 commands:
-  reload:
-    description: "Reloads plugins with a fail-safe built in for new developers"
-    usage: /<command>
