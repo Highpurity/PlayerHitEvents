@@ -1,0 +1,7 @@
+name: PlayerHitEvents
+version: '${project.version}'
+main: highpurity.playerhitevents.PlayerHitEvents
+api-version: 1.19
+prefix: [HitReg]
+authors: [Highpurity]
+description: Customizable plugin that sends hit regisration events!
