@@ -12,6 +12,9 @@ public class PlayerPlayerEvent implements Listener {
 
         if(e.getDamager().getType() == EntityType.PLAYER){
             if(e.getEntity().getType() == EntityType.PLAYER){
+
+
+
                 Bukkit.broadcastMessage("test");
             }
         }
