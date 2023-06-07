@@ -1,6 +1,7 @@
 package highpurity.playerhitevents;
 
 import highpurity.playerhitevents.events.PlayerPlayerEvent;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class PlayerHitEvents extends JavaPlugin {
@@ -9,6 +10,8 @@ public final class PlayerHitEvents extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
+
+        getCommand("reload").setExecutor(new PlayerHitEvents());
 
         getServer().getPluginManager().registerEvents(new PlayerPlayerEvent(), this);
 

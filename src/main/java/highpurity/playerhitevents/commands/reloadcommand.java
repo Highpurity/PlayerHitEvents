@@ -14,7 +14,7 @@ public class reloadcommand implements CommandExecutor {
 
         Scanner scanner = new Scanner(System.in);
 
-        if(!sender.hasPermission("playerhitevents.dev")){
+        if(sender.hasPermission("playerhitevents.dev")){
 
             sender.sendMessage(ChatColor.RED + "Are you sure you'd like to reload? Type 'yes' to continue");
             var response = scanner.nextLine();
